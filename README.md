@@ -6,6 +6,8 @@ I Just written one test to finish all scenarios together. I did use Thread.sleep
 
 I did use selenium 3.0 and java 1.7 + so while running maven test it needs to compile and test using 1.7+ compiler otherwise will throw errors.
 
+Few places I declared exceptions and which are mandatory as per Java specification since those are checked exceptions.
+
 I used Firefox browser with GeckoDriver (unix executable) on selenium 3.0 version and used OOPS concepts to handle one driver instance for all page objects.
 
 If you are running in your machine, please download GeckoDriver and update the path in the code base (DriverUtility.java) and also file upload path (TestPage.java) as well.
@@ -15,6 +17,8 @@ And /Users/kirangorantla/Documents/test.txt
 respectively.
 
 And also I did not add automation for deleting the snippet here.
+
+
 
 
 BUGS :
